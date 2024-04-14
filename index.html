@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img id="logo" src="https://tredu.io/assets/navbarLogo-3471f1a8.svg" alt="logo" >
+    <h1 id="text">Become a partner</h1>
+    <form id="form" action="">
+      <h3 style="font-family: sans-serif; font-weight: 600px ; font-size: 24px;">Personal information</h3>
+
+      <div class="inputItem">
+        <label for="firstname" >First name*</label>
+        <input
+          placeholder="Enter your first name"
+          name="firstname"
+          type="text"
+        />
+      </div>
+
+      <div class="inputItem">
+        <label for="lastname">Last name*</label>
+        <input placeholder="Enter your last name" name="lastname" type="text" />
+      </div>
+
+      <div class="inputItem">
+        <label for="email">Email*</label>
+        <input required placeholder="Enter your email" name="email" type="email" />
+      </div>
+
+      <div class="inputItem">
+        <label for="phone">Phone number*</label>
+        <input placeholder="+994___ __ __" name="phone" type="tel" />
+      </div>
+
+      <h3 style="font-family: sans-serif; font-weight: 600px ; font-size: 24px;">Company information</h3>
+      
+      <div class="inputItem">
+        <label for="partnername">Partner network name*</label>
+        <input placeholder="Enter partner name" name="partnername" type="text" />
+      </div>
+      
+      <div class="inputItem">
+        <label for="logo">Your logo*</label>
+        <div class="fileDiv">
+          <p>Add your logo</p>
+          <input class="file" name="logo" type="file" />
+          <img src="https://tredu.io/assets/inputAddImage-9ee92182.svg" alt="file.svg" />
+        </div>
+      </div>
+
+      <div class="inputItem">
+        <label for="description">Description</label>
+        
+        <textarea placeholder="Add description of your company" name="description" id="" cols="30" rows="10"></textarea>
+      </div>
+
+      <div class="category">
+          <label class="inputItem" for="select">Activity category</label>
+    <div class="selectcontainer">
+      <select class="select" name="category">
+        <option value="" disabled selected hidden>Choose category</option>
+        <option value="2">Category1</option>
+        <option value="1">Category2</option>
+    </select>
+    <img src="https://tredu.io/assets/dropdown-9d1d716d.svg" alt="downarrow" class="arrow">
+    </div>
+    </div>
+
+    <div class="category">
+        <label class="inputItem" for="select">Number of operational branches</label>
+  <div class="selectcontainer">
+    <select class="select" name="category">
+      <option value="" disabled selected hidden>Choose category</option>
+      <option value="2">Category1</option>
+      <option value="1">Category2</option>
+  </select>
+  <img src="https://tredu.io/assets/dropdown-9d1d716d.svg" alt="downarrow" class="arrow">
+  </div>
+  </div>
+
+  <div class="category">
+    <label class="inputItem" for="select">School(s) which is interested to operate</label>
+<div class="selectcontainer">
+<select class="select" name="category">
+  <option value="" disabled selected hidden>Choose school(s)</option>
+  <option value="2">Category1</option>
+  <option value="1">Category2</option>
+</select>
+<img src="https://tredu.io/assets/dropdown-9d1d716d.svg" alt="downarrow" class="arrow">
+</div>
+</div>
+<button id="addbtn">+ Add new</button>
+     
+
+
+    </form>
+
+
+  </body>
+</html>

@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+  }
+  ::-webkit-input-placeholder{
+    color: black;
+  }
+
+
+  
+  body {
+    background-image: url(https://tredu.io/assets/becomePartnerBg-48b32281.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 14400px;
+    
+  }
+  
+#logo{
+    margin-left: 160px;
+    margin-top: 32px;
+    margin-right: 1090px;
+    
+    width: 200px;
+}
+#text{
+font-size: 36px;
+color: #374B9D;
+font-family: sans-serif;
+margin-left: 540px;
+margin-top: 16px;
+margin-right: 560px;
+font-weight: 700;
+}
+
+  #form {
+    margin-top: 40px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    width: 100%;
+    gap: 16px;
+    padding: 28px 168px;
+    border-radius: 10px;
+    
+  }
+  
+  .inputItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .fileDiv {
+    background-color: white;
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  .fileDiv p {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    pointer-events: none;
+  }
+  
+  .fileDiv img {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    pointer-events: none;
+  }
+  .inputItem label{
+    font-family: sans-serif; 
+    font-size: 16px; color:#686868 ;
+  }
+
+  .inputItem input,
+  textarea {
+    padding: 16px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+
+  }
+  
+  .inputItem textarea {
+    resize: none;
+  }
+  .inputItem p{
+    gap: 8px;
+  }
+  
+  .inputItem input:focus {
+    border: 1px solid green;
+  }
+  
+  .file {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .file:hover {
+    cursor: pointer;
+  }
+ 
+
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .category label {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #686868;
+  }
+  
+  .selectcontainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .select {
+    padding: 16px 40px 16px 20px; 
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    width: 100%; 
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%);
+    width: 15px;
+    height: auto;
+  }
+
+  #addbtn{
+    
+padding: 6px 12px, 6px, 12px;
+gap: 6px;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #0079E9;
+width: 128px;
+height: 36px;
+background-color: transparent;
+outline: none;
+border: none;
+
+
+  }
+  
